@@ -1,0 +1,62 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+
+
+
+
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+
+.cabecalho {
+    background-color: darkgreen;
+    text-align: center;
+}
+
+.titulo {
+    color: darkgray;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.subtitulo {
+    color: aliceblue;
+}
+
+.conteudo {
+    background-color: darkslategrey;
+    color: cornflowerblue;
+}
+
+
+/* Desafio */
+.conteudo p {
+    color: #E4005A;
+    font-size: 42px;
+}
+
+/* Desafio plus */
+.cabecalho p:nth-child(3){ 
+    /*https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child
+    Já sabia que tinha como fazer só não lembrava como, então pesquisei.
+    https://www.w3schools.com/TAGS/tag_sub.asp
+    */
+    color: purple;
+    vertical-align: sub;
+}
+
+/* Desafio plus ++*/
+@media screen and (max-width: 480px){
+    .container{
+        background-color: lightblue;
+    }
+    /*
+    Já tinha usado antes, mas pesquisei https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
+    para revisar a estrutura do mobile
+    */
+
+}
